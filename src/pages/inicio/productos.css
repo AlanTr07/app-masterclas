@@ -1,0 +1,54 @@
+/* Estilos para la galería */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilos para cada tarjeta de imagen */
+.image-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la imagen */
+.image-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Estilos para los detalles de la imagen */
+.image-details {
+  margin-top: 10px;
+}
+
+/* Estilos para el precio */
+.image-details p:first-child {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Estilos para la descripción */
+.image-details p:last-child {
+  color: #666;
+}
+
+/* Estilos para el enlace */
+.image-details a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.image-details a:hover {
+  color: #0056b3;
+}
